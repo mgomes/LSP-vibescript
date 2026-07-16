@@ -1,0 +1,14 @@
+LSP-vibescript
+==============
+
+Thanks for installing! This package connects Sublime Text to the
+Vibescript language server for diagnostics, hover documentation, and
+completions.
+
+To finish setting up:
+
+  1. Install the "LSP" package via Package Control (if you haven't)
+  2. Install the "Vibescript" package for .vibe syntax support
+  3. Make sure the `vibes` binary is on your PATH
+
+Docs and issues: https://github.com/mgomes/LSP-vibescript
