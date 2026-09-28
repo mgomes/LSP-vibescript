@@ -12,3 +12,9 @@ To finish setting up:
   3. Make sure the `vibes` binary is on your PATH
 
 Docs and issues: https://github.com/mgomes/LSP-vibescript
+
+Use Rust Vibescript v0.80.0:
+
+  cargo install --git https://github.com/xipkit/vibescript --tag v0.80.0 vibes
+
+The language server command is vibes lsp. Replace any retired Go binary.

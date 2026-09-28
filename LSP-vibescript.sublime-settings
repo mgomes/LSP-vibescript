@@ -1,4 +1,6 @@
-// Packages/User/LSP-vibescript.sublime-settings
+// Rust Vibescript v0.80.0. Install with:
+// cargo install --git https://github.com/xipkit/vibescript --tag v0.80.0 vibes
+// Use an absolute path below if Cargo's bin directory is not on PATH.
 {
   "command": [
     "vibes",
