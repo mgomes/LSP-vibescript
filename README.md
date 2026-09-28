@@ -1,6 +1,6 @@
 # LSP-vibescript
 
-Connects Sublime Text to the [Vibescript](https://github.com/mgomes/vibescript)
+Connects Sublime Text to the [Vibescript](https://github.com/xipkit/vibescript)
 language server: diagnostics, hover documentation, completions, and symbol
 navigation through `vibes lsp`.
 
@@ -10,6 +10,16 @@ navigation through `vibes lsp`.
 - The [Vibescript](https://github.com/mgomes/sublime-vibescript) package for
   `.vibe` syntax support
 - The `vibes` binary available on your `PATH`
+
+Supports the Rust implementation of Vibescript v0.80.0. Install its CLI and
+language server with:
+
+```sh
+cargo install --git https://github.com/xipkit/vibescript --tag v0.80.0 vibes
+```
+
+Add Cargo's bin directory (`~/.cargo/bin` by default) to your editor's `PATH`.
+The server command remains `vibes lsp`. Replace any path to the retired Go binary.
 
 ## Development install
 
